@@ -9,7 +9,7 @@ public class TicTacToeGame {
 
 	public static char[] gameBoard = new char[10];
 
-	public static void TicTacToeGame() {
+	public void TicTacToeGame() {
 		/**
 		 * initializing array
 		 */
@@ -18,7 +18,7 @@ public class TicTacToeGame {
 		}
 	}
 
-	public static void printBoard() {
+	public void printBoard() {
 		/**
 		 * printing board
 		 */

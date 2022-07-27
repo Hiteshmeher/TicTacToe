@@ -11,9 +11,11 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		/**
+		 * creating object of TicTacToeGame class
 		 * calling two methods
 		 */
-		TicTacToeGame.TicTacToeGame();
-		TicTacToeGame.printBoard();
+		TicTacToeGame game = new TicTacToeGame();
+		game.TicTacToeGame();
+		game.printBoard();
 	}
 }
