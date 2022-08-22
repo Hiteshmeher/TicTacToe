@@ -16,8 +16,9 @@ public class Main {
 		 */
 		System.out.println("<<<<< Welcome to TicTacToe Gaming >>>>>");
 		TicTacToeGame game = new TicTacToeGame();
-		 game.TicTacToe();
+		 game.ticTacToe();
 	     game.choice();
 	     game.showBoard();
+	     game.moveLocation();
 	}
 }
