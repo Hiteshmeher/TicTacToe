@@ -12,10 +12,12 @@ public class Main {
 	public static void main(String[] args) {
 		/**
 		 * creating object of TicTacToeGame class
-		 * calling two methods
+		 * calling the methods
 		 */
+		System.out.println("<<<<< Welcome to TicTacToe Gaming >>>>>");
 		TicTacToeGame game = new TicTacToeGame();
-		game.TicTacToeGame();
+		game.Board();
 		game.printBoard();
+		game.choice();
 	}
 }
