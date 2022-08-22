@@ -11,7 +11,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		/**
-		 * Creating object of TicTacToeGame class
+		 * Creating Object of TicTacToeGame class
 		 * Calling the methods
 		 */
 		System.out.println("<<<<< Welcome to TicTacToe Gaming >>>>>");
