@@ -1,5 +1,7 @@
 package com.bridgelabz.TicTacToe;
 
+import java.util.Scanner;
+
 /**
  * 
  * @author HITESH
@@ -7,23 +9,32 @@ package com.bridgelabz.TicTacToe;
  */
 public class TicTacToeGame {
 
-	public static char[] gameBoard = new char[10];
-
-	public void TicTacToeGame() {
+	public static char[] createBoard = new char[10];
+	Scanner sc = new Scanner(System.in);
+	
+	public char Board() {
 		/**
 		 * initializing array
 		 */
-		for (int i = 0; i < gameBoard.length; i++) {
-			gameBoard[i] = ' ';
+		for (int i = 0; i < createBoard.length; i++) {
+			createBoard[i] = ' ';
 		}
+		return 0;
+	}
+	
+	public char choice() {
+		// taking choice of User i.e X or O
+		System.out.println("Do you want X or O : ");
+        return sc.next().charAt(0);
 	}
 
-	public void printBoard() {
+	public char printBoard() {
 		/**
 		 * printing board
 		 */
-		System.out.println(gameBoard[1] + " | " + gameBoard[2] + " | " + gameBoard[3]);
-		System.out.println(gameBoard[4] + " | " + gameBoard[5] + " | " + gameBoard[6]);
-		System.out.println(gameBoard[7] + " | " + gameBoard[8] + " | " + gameBoard[9]);
+		System.out.println(createBoard[1] + " | " + createBoard[2] + " | " + createBoard[3]);
+		System.out.println(createBoard[4] + " | " + createBoard[5] + " | " + createBoard[6]);
+		System.out.println(createBoard[7] + " | " + createBoard[8] + " | " + createBoard[9]);
+		return 0;
 	}
 }
