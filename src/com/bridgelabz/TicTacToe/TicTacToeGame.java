@@ -42,7 +42,7 @@ public class TicTacToeGame {
 			if (playerPosition < 1 || playerPosition > 9) {
 				System.out.println("This position is out off the board. Play again!");
 			} else if (gameBoard[playerPosition] != ' ') {
-				System.out.println("Position is occupied. Try again!!!");
+				System.out.println("Position is already occupied. Select another Location");
 			} else {
 				System.out.println("Valid Position");
 			}
